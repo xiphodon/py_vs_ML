@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ced98a67-4537-4e38-85e1-40ef310d9596" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linear/ridge.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linear/lasso.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/linear/linear_regression.py" afterPath="$PROJECT_DIR$/linear/linear_regression.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,13 +27,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ridge.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ridge.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linear/ridge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            <state relative-caret-position="371">
+              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
               <folding>
                 <element signature="e#212#243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lasso.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linear/lasso.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+              <folding>
+                <element signature="e#217#248#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,6 +68,7 @@
       <list>
         <option value="$PROJECT_DIR$/linear/linear_regression.py" />
         <option value="$PROJECT_DIR$/linear/ridge.py" />
+        <option value="$PROJECT_DIR$/linear/lasso.py" />
       </list>
     </option>
   </component>
@@ -65,6 +77,9 @@
     <option name="y" value="-9" />
     <option name="width" value="2418" />
     <option name="height" value="1318" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -129,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ridge">
+  <component name="RunManager" selected="Python.lasso">
     <configuration default="false" name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,6 +176,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear/ridge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="lasso" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linear" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_vs_ML" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear/lasso.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,14 +279,16 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.linear_regression" />
       <item index="1" class="java.lang.String" itemvalue="Python.ridge" />
+      <item index="2" class="java.lang.String" itemvalue="Python.lasso" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.ridge" />
-        <item index="1" class="java.lang.String" itemvalue="Python.linear_regression" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.lasso" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ridge" />
+        <item index="2" class="java.lang.String" itemvalue="Python.linear_regression" />
       </list>
     </recent_temporary>
   </component>
@@ -334,10 +369,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linear/ridge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="371">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
           <folding>
             <element signature="e#212#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear/lasso.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+          <folding>
+            <element signature="e#217#248#0" expanded="true" />
           </folding>
         </state>
       </provider>
