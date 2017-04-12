@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ced98a67-4537-4e38-85e1-40ef310d9596" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linear/logistic_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linear/LinearDiscriminantAnalysis.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,13 +63,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logistic_regression.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logistic_regression.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linear/logistic_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+            <state relative-caret-position="397">
+              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
                 <element signature="e#228#259#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinearDiscriminantAnalysis.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linear/LinearDiscriminantAnalysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="108" column="98" lean-forward="true" selection-start-line="108" selection-start-column="98" selection-end-line="108" selection-end-column="98" />
+              <folding>
+                <element signature="e#237#268#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,6 +107,7 @@
         <option value="$PROJECT_DIR$/linear/lasso.py" />
         <option value="$PROJECT_DIR$/linear/elasticnet.py" />
         <option value="$PROJECT_DIR$/linear/logistic_regression.py" />
+        <option value="$PROJECT_DIR$/linear/LinearDiscriminantAnalysis.py" />
       </list>
     </option>
   </component>
@@ -170,25 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.logistic_regression">
-    <configuration default="false" name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linear" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear/linear_regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.LinearDiscriminantAnalysis">
     <configuration default="false" name="ridge" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,6 +251,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear/logistic_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LinearDiscriminantAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linear" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_vs_ML" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear/LinearDiscriminantAnalysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,19 +355,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.linear_regression" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ridge" />
-      <item index="2" class="java.lang.String" itemvalue="Python.lasso" />
-      <item index="3" class="java.lang.String" itemvalue="Python.elasticnet" />
-      <item index="4" class="java.lang.String" itemvalue="Python.logistic_regression" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ridge" />
+      <item index="1" class="java.lang.String" itemvalue="Python.lasso" />
+      <item index="2" class="java.lang.String" itemvalue="Python.elasticnet" />
+      <item index="3" class="java.lang.String" itemvalue="Python.logistic_regression" />
+      <item index="4" class="java.lang.String" itemvalue="Python.LinearDiscriminantAnalysis" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.logistic_regression" />
-        <item index="1" class="java.lang.String" itemvalue="Python.elasticnet" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lasso" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ridge" />
-        <item index="4" class="java.lang.String" itemvalue="Python.linear_regression" />
+        <item index="0" class="java.lang.String" itemvalue="Python.LinearDiscriminantAnalysis" />
+        <item index="1" class="java.lang.String" itemvalue="Python.logistic_regression" />
+        <item index="2" class="java.lang.String" itemvalue="Python.elasticnet" />
+        <item index="3" class="java.lang.String" itemvalue="Python.lasso" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ridge" />
       </list>
     </recent_temporary>
   </component>
@@ -473,10 +486,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linear/logistic_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+        <state relative-caret-position="397">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
             <element signature="e#228#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear/LinearDiscriminantAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="108" column="98" lean-forward="true" selection-start-line="108" selection-start-column="98" selection-end-line="108" selection-end-column="98" />
+          <folding>
+            <element signature="e#237#268#0" expanded="true" />
           </folding>
         </state>
       </provider>
