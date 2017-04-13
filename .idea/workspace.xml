@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ced98a67-4537-4e38-85e1-40ef310d9596" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Decision_Tree/decisiontree_classifier.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Decision_Tree/export_graphviz.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bayesian/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bayesian/bayesian.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bayesian/bernoulliNB.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bayesian/gaussianNB.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bayesian/multinomialNB.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,37 +19,37 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="decisiontree_regressor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Decision_Tree/decisiontree_regressor.py">
+      <file leaf-file-name="bayesian.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bayesian/bayesian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="94" column="22" lean-forward="true" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+            <state relative-caret-position="553">
+              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
               <folding>
-                <element signature="e#233#251#0" expanded="true" />
+                <element signature="e#225#283#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="decisiontree_classifier.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Decision_Tree/decisiontree_classifier.py">
+      <file leaf-file-name="multinomialNB.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bayesian/multinomialNB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="101" column="26" lean-forward="true" selection-start-line="101" selection-start-column="26" selection-end-line="102" selection-end-column="48" />
+            <state relative-caret-position="285">
+              <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
               <folding>
-                <element signature="e#234#252#0" expanded="true" />
+                <element signature="e#209#240#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="export_graphviz.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Decision_Tree/export_graphviz.py">
+      <file leaf-file-name="bernoulliNB.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bayesian/bernoulliNB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="130">
+              <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
               <folding>
-                <element signature="e#225#243#0" expanded="true" />
+                <element signature="e#208#239#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,6 +81,10 @@
         <option value="$PROJECT_DIR$/Decision_Tree/decisiontree_regressor.py" />
         <option value="$PROJECT_DIR$/Decision_Tree/decisiontree_classifier.py" />
         <option value="$PROJECT_DIR$/Decision_Tree/export_graphviz.py" />
+        <option value="$PROJECT_DIR$/Bayesian/gaussianNB.py" />
+        <option value="$PROJECT_DIR$/Bayesian/multinomialNB.py" />
+        <option value="$PROJECT_DIR$/Bayesian/bayesian.py" />
+        <option value="$PROJECT_DIR$/Bayesian/bernoulliNB.py" />
       </list>
     </option>
   </component>
@@ -131,6 +138,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="py_vs_ML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="py_vs_ML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bayesian" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -158,25 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.export_graphviz">
-    <configuration default="false" name="logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linear" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear/logistic_regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.bayesian">
     <configuration default="false" name="LinearDiscriminantAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,6 +247,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Decision_Tree/export_graphviz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bayesian" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bayesian" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_vs_ML" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bayesian/bayesian.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,19 +351,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.logistic_regression" />
-      <item index="1" class="java.lang.String" itemvalue="Python.LinearDiscriminantAnalysis" />
-      <item index="2" class="java.lang.String" itemvalue="Python.decisiontree_regressor" />
-      <item index="3" class="java.lang.String" itemvalue="Python.decisiontree_classifier" />
-      <item index="4" class="java.lang.String" itemvalue="Python.export_graphviz" />
+      <item index="0" class="java.lang.String" itemvalue="Python.LinearDiscriminantAnalysis" />
+      <item index="1" class="java.lang.String" itemvalue="Python.decisiontree_regressor" />
+      <item index="2" class="java.lang.String" itemvalue="Python.decisiontree_classifier" />
+      <item index="3" class="java.lang.String" itemvalue="Python.export_graphviz" />
+      <item index="4" class="java.lang.String" itemvalue="Python.bayesian" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.export_graphviz" />
-        <item index="1" class="java.lang.String" itemvalue="Python.decisiontree_classifier" />
-        <item index="2" class="java.lang.String" itemvalue="Python.decisiontree_regressor" />
-        <item index="3" class="java.lang.String" itemvalue="Python.LinearDiscriminantAnalysis" />
-        <item index="4" class="java.lang.String" itemvalue="Python.logistic_regression" />
+        <item index="0" class="java.lang.String" itemvalue="Python.bayesian" />
+        <item index="1" class="java.lang.String" itemvalue="Python.export_graphviz" />
+        <item index="2" class="java.lang.String" itemvalue="Python.decisiontree_classifier" />
+        <item index="3" class="java.lang.String" itemvalue="Python.decisiontree_regressor" />
+        <item index="4" class="java.lang.String" itemvalue="Python.LinearDiscriminantAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +387,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938188" sideWeight="0.50166667" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938188" sideWeight="0.49833333" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28450465" sideWeight="0.49833333" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -396,7 +417,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#233#251#0" expanded="true" />
+            <element signature="e#233#251#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -486,16 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Decision_Tree/decisiontree_regressor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="94" column="22" lean-forward="true" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
-          <folding>
-            <element signature="e#233#251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Decision_Tree/decisiontree_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -508,10 +519,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Decision_Tree/export_graphviz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="493">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
           <folding>
-            <element signature="e#225#243#0" expanded="true" />
+            <element signature="e#225#243#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bayesian/gaussianNB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Decision_Tree/decisiontree_regressor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="102" column="7" lean-forward="false" selection-start-line="101" selection-start-column="28" selection-end-line="102" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bayesian/multinomialNB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+          <folding>
+            <element signature="e#209#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bayesian/bayesian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="e#225#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bayesian/bernoulliNB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+          <folding>
+            <element signature="e#208#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
