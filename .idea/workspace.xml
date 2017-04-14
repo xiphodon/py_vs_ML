@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ced98a67-4537-4e38-85e1-40ef310d9596" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dimension_Reduction/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/KNN_Dimension_Reduction/__init__.py" afterPath="$PROJECT_DIR$/KNN/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/KNN_Dimension_Reduction/kneighbors_classifier.py" afterPath="$PROJECT_DIR$/KNN/kneighbors_classifier.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/KNN_Dimension_Reduction/kneighbors_regressor.py" afterPath="$PROJECT_DIR$/KNN/kneighbors_regressor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dimension_Reduction/isomap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dimension_Reduction/kpca.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dimension_Reduction/lle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dimension_Reduction/mds.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dimension_Reduction/pca.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +18,68 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="pca.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dimension_Reduction/pca.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+              <folding>
+                <element signature="e#219#237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kpca.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dimension_Reduction/kpca.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="178" column="0" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+              <folding>
+                <element signature="e#221#239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mds.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dimension_Reduction/mds.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+              <folding>
+                <element signature="e#213#231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="isomap.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dimension_Reduction/isomap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="96" column="32" lean-forward="true" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+              <folding>
+                <element signature="e#227#245#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lle.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dimension_Reduction/lle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="103" column="75" lean-forward="true" selection-start-line="103" selection-start-column="75" selection-end-line="103" selection-end-column="75" />
+              <folding>
+                <element signature="e#219#237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,6 +111,11 @@
         <option value="$PROJECT_DIR$/Bayesian/bernoulliNB.py" />
         <option value="$PROJECT_DIR$/KNN_Dimension_Reduction/kneighbors_classifier.py" />
         <option value="$PROJECT_DIR$/KNN_Dimension_Reduction/kneighbors_regressor.py" />
+        <option value="$PROJECT_DIR$/Dimension_Reduction/pca.py" />
+        <option value="$PROJECT_DIR$/Dimension_Reduction/kpca.py" />
+        <option value="$PROJECT_DIR$/Dimension_Reduction/mds.py" />
+        <option value="$PROJECT_DIR$/Dimension_Reduction/isomap.py" />
+        <option value="$PROJECT_DIR$/Dimension_Reduction/lle.py" />
       </list>
     </option>
   </component>
@@ -128,92 +196,92 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kneighbors_regressor (1)">
-    <configuration default="false" name="export_graphviz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.lle">
+    <configuration default="false" name="pca" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Decision_Tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dimension_Reduction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Decision_Tree/export_graphviz.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dimension_Reduction/pca.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="bayesian" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="kpca" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bayesian" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dimension_Reduction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bayesian/bayesian.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dimension_Reduction/kpca.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="kneighbors_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="mds" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KNN_Dimension_Reduction" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dimension_Reduction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KNN_Dimension_Reduction/kneighbors_classifier.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dimension_Reduction/mds.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="kneighbors_regressor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="isomap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KNN_Dimension_Reduction" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dimension_Reduction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KNN_Dimension_Reduction/kneighbors_regressor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dimension_Reduction/isomap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="kneighbors_regressor (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="lle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dimension_Reduction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KNN/kneighbors_regressor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dimension_Reduction/lle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,19 +368,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.export_graphviz" />
-      <item index="1" class="java.lang.String" itemvalue="Python.bayesian" />
-      <item index="2" class="java.lang.String" itemvalue="Python.kneighbors_classifier" />
-      <item index="3" class="java.lang.String" itemvalue="Python.kneighbors_regressor" />
-      <item index="4" class="java.lang.String" itemvalue="Python.kneighbors_regressor (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.pca" />
+      <item index="1" class="java.lang.String" itemvalue="Python.kpca" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mds" />
+      <item index="3" class="java.lang.String" itemvalue="Python.isomap" />
+      <item index="4" class="java.lang.String" itemvalue="Python.lle" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.kneighbors_regressor (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.kneighbors_regressor" />
-        <item index="2" class="java.lang.String" itemvalue="Python.kneighbors_classifier" />
-        <item index="3" class="java.lang.String" itemvalue="Python.bayesian" />
-        <item index="4" class="java.lang.String" itemvalue="Python.export_graphviz" />
+        <item index="0" class="java.lang.String" itemvalue="Python.lle" />
+        <item index="1" class="java.lang.String" itemvalue="Python.isomap" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mds" />
+        <item index="3" class="java.lang.String" itemvalue="Python.kpca" />
+        <item index="4" class="java.lang.String" itemvalue="Python.pca" />
       </list>
     </recent_temporary>
   </component>
@@ -526,7 +594,57 @@
         <state relative-caret-position="2626">
           <caret line="101" column="39" lean-forward="true" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
           <folding>
-            <element signature="e#231#249#0" expanded="true" />
+            <element signature="e#231#249#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dimension_Reduction/pca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+          <folding>
+            <element signature="e#219#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dimension_Reduction/kpca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="178" column="0" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+          <folding>
+            <element signature="e#221#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dimension_Reduction/mds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+          <folding>
+            <element signature="e#213#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dimension_Reduction/isomap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="96" column="32" lean-forward="true" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+          <folding>
+            <element signature="e#227#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dimension_Reduction/lle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="103" column="75" lean-forward="true" selection-start-line="103" selection-start-column="75" selection-end-line="103" selection-end-column="75" />
+          <folding>
+            <element signature="e#219#237#0" expanded="true" />
           </folding>
         </state>
       </provider>
