@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ced98a67-4537-4e38-85e1-40ef310d9596" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cluster_EM/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cluster_EM/agglomerative_clustering.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cluster_EM/cluster.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cluster_EM/dbscan.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cluster_EM/gmm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cluster_EM/kmeans.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SVM/SVC.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SVM/SVR.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SVM/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SVM/linearSVC.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SVM/linearSVR.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,61 +19,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cluster.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cluster_EM/cluster.py">
+      <file leaf-file-name="SVR.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SVM/SVR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="359">
+              <caret line="176" column="41" lean-forward="true" selection-start-line="176" selection-start-column="41" selection-end-line="176" selection-end-column="41" />
               <folding>
-                <element signature="e#220#238#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agglomerative_clustering.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cluster_EM/agglomerative_clustering.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1482">
-              <caret line="57" column="17" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-              <folding>
-                <element signature="e#233#260#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbscan.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cluster_EM/dbscan.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding>
-                <element signature="e#217#244#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gmm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cluster_EM/gmm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#215#242#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kmeans.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cluster_EM/kmeans.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2288">
-              <caret line="88" column="41" lean-forward="false" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="41" />
-              <folding>
-                <element signature="e#217#244#0" expanded="true" />
+                <element signature="e#224#255#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,6 +73,10 @@
         <option value="$PROJECT_DIR$/Cluster_EM/agglomerative_clustering.py" />
         <option value="$PROJECT_DIR$/Cluster_EM/gmm.py" />
         <option value="$PROJECT_DIR$/Cluster_EM/cluster.py" />
+        <option value="$PROJECT_DIR$/SVM/linearSVC.py" />
+        <option value="$PROJECT_DIR$/SVM/SVC.py" />
+        <option value="$PROJECT_DIR$/SVM/linearSVR.py" />
+        <option value="$PROJECT_DIR$/SVM/SVR.py" />
       </list>
     </option>
   </component>
@@ -148,8 +103,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,12 +125,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cluster_EM" />
+              <option name="myItemId" value="SVM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,79 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cluster">
-    <configuration default="false" name="kpca" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dimension_Reduction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dimension_Reduction/kpca.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="mds" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dimension_Reduction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dimension_Reduction/mds.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="isomap" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dimension_Reduction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dimension_Reduction/isomap.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="lle" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dimension_Reduction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dimension_Reduction/lle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.SVR">
     <configuration default="false" name="cluster" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,6 +170,78 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cluster_EM/cluster.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="linearSVC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_vs_ML" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/linearSVC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SVC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_vs_ML" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/SVC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="linearSVR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_vs_ML" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/linearSVR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SVR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_vs_ML" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/SVR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,19 +328,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.kpca" />
-      <item index="1" class="java.lang.String" itemvalue="Python.mds" />
-      <item index="2" class="java.lang.String" itemvalue="Python.isomap" />
-      <item index="3" class="java.lang.String" itemvalue="Python.lle" />
-      <item index="4" class="java.lang.String" itemvalue="Python.cluster" />
+      <item index="0" class="java.lang.String" itemvalue="Python.cluster" />
+      <item index="1" class="java.lang.String" itemvalue="Python.linearSVC" />
+      <item index="2" class="java.lang.String" itemvalue="Python.SVC" />
+      <item index="3" class="java.lang.String" itemvalue="Python.linearSVR" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SVR" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.cluster" />
-        <item index="1" class="java.lang.String" itemvalue="Python.lle" />
-        <item index="2" class="java.lang.String" itemvalue="Python.isomap" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mds" />
-        <item index="4" class="java.lang.String" itemvalue="Python.kpca" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SVR" />
+        <item index="1" class="java.lang.String" itemvalue="Python.linearSVR" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SVC" />
+        <item index="3" class="java.lang.String" itemvalue="Python.linearSVC" />
+        <item index="4" class="java.lang.String" itemvalue="Python.cluster" />
       </list>
     </recent_temporary>
   </component>
@@ -635,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="112" column="4" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,9 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1482">
           <caret line="57" column="17" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-          <folding>
-            <element signature="e#233#260#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,9 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#217#244#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,9 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2288">
           <caret line="88" column="41" lean-forward="false" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="41" />
-          <folding>
-            <element signature="e#217#244#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,18 +618,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#215#242#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cluster_EM/cluster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="388">
+          <caret line="65" column="53" lean-forward="true" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/linearSVC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="85" column="32" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
           <folding>
-            <element signature="e#220#238#0" expanded="true" />
+            <element signature="e#228#259#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/SVC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding>
+            <element signature="e#223#254#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/linearSVR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="105" column="23" lean-forward="true" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
+          <folding>
+            <element signature="e#228#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/SVR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="176" column="41" lean-forward="true" selection-start-line="176" selection-start-column="41" selection-end-line="176" selection-end-column="41" />
+          <folding>
+            <element signature="e#224#255#0" expanded="true" />
           </folding>
         </state>
       </provider>
