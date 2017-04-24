@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ced98a67-4537-4e38-85e1-40ef310d9596" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Semi_Supervised_Learning/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Semi_Supervised_Learning/labelPropagation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Semi_Supervised_Learning/labelSpreading.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ensemble/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ensemble/adaboost_classifier.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ensemble/adaboost_regressor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ensemble/gradientboosting_classifier.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ensemble/gradientboosting_regressor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ensemble/randomforest_classifier.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ensemble/randomforest_regressor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,74 +20,26 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SVR.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SVM/SVR.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="randomforest_classifier.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ensemble/randomforest_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="176" column="41" lean-forward="true" selection-start-line="176" selection-start-column="41" selection-end-line="176" selection-end-column="41" />
+            <state relative-caret-position="598">
+              <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding>
-                <element signature="e#224#255#0" expanded="true" />
+                <element signature="e#255#286#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="perceptron.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Perceptron_Neural_Network/perceptron.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="334" column="0" lean-forward="true" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
-              <folding>
-                <element signature="e#219#255#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="neural_network.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Perceptron_Neural_Network/neural_network.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding>
-                <element signature="e#225#243#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="neural_network_iris.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Perceptron_Neural_Network/neural_network_iris.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="185" column="84" lean-forward="true" selection-start-line="185" selection-start-column="84" selection-end-line="185" selection-end-column="84" />
-              <folding>
-                <element signature="e#232#276#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="labelPropagation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Semi_Supervised_Learning/labelPropagation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="119" column="66" lean-forward="true" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
-              <folding>
-                <element signature="e#237#255#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="labelSpreading.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Semi_Supervised_Learning/labelSpreading.py">
+      <file leaf-file-name="randomforest_regressor.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ensemble/randomforest_regressor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="676">
-              <caret line="120" column="62" lean-forward="true" selection-start-line="120" selection-start-column="62" selection-end-line="120" selection-end-column="62" />
+              <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding>
-                <element signature="e#225#243#0" expanded="true" />
+                <element signature="e#254#285#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,6 +96,12 @@
         <option value="$PROJECT_DIR$/Perceptron_Neural_Network/neural_network_iris.py" />
         <option value="$PROJECT_DIR$/Semi_Supervised_Learning/labelPropagation.py" />
         <option value="$PROJECT_DIR$/Semi_Supervised_Learning/labelSpreading.py" />
+        <option value="$PROJECT_DIR$/Ensemble/adaboost_classifier.py" />
+        <option value="$PROJECT_DIR$/Ensemble/adaboost_regressor.py" />
+        <option value="$PROJECT_DIR$/Ensemble/gradientboosting_classifier.py" />
+        <option value="$PROJECT_DIR$/Ensemble/gradientboosting_regressor.py" />
+        <option value="$PROJECT_DIR$/Ensemble/randomforest_classifier.py" />
+        <option value="$PROJECT_DIR$/Ensemble/randomforest_regressor.py" />
       </list>
     </option>
   </component>
@@ -167,6 +129,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,14 +153,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Semi_Supervised_Learning" />
+              <option name="myItemId" value="Ensemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,92 +182,92 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.labelSpreading">
-    <configuration default="false" name="perceptron" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.randomforest_regressor">
+    <configuration default="false" name="adaboost_regressor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Perceptron_Neural_Network" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ensemble" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perceptron_Neural_Network/perceptron.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ensemble/adaboost_regressor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="neural_network" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="gradientboosting_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Perceptron_Neural_Network" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ensemble" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perceptron_Neural_Network/neural_network.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ensemble/gradientboosting_classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="neural_network_iris" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="gradientboosting_regressor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Perceptron_Neural_Network" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ensemble" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perceptron_Neural_Network/neural_network_iris.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ensemble/gradientboosting_regressor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="labelPropagation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="randomforest_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Semi_Supervised_Learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ensemble" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Semi_Supervised_Learning/labelPropagation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ensemble/randomforest_classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="labelSpreading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="randomforest_regressor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Semi_Supervised_Learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ensemble" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_vs_ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Semi_Supervised_Learning/labelSpreading.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ensemble/randomforest_regressor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -392,19 +354,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.perceptron" />
-      <item index="1" class="java.lang.String" itemvalue="Python.neural_network" />
-      <item index="2" class="java.lang.String" itemvalue="Python.neural_network_iris" />
-      <item index="3" class="java.lang.String" itemvalue="Python.labelPropagation" />
-      <item index="4" class="java.lang.String" itemvalue="Python.labelSpreading" />
+      <item index="0" class="java.lang.String" itemvalue="Python.adaboost_regressor" />
+      <item index="1" class="java.lang.String" itemvalue="Python.gradientboosting_classifier" />
+      <item index="2" class="java.lang.String" itemvalue="Python.gradientboosting_regressor" />
+      <item index="3" class="java.lang.String" itemvalue="Python.randomforest_classifier" />
+      <item index="4" class="java.lang.String" itemvalue="Python.randomforest_regressor" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.labelSpreading" />
-        <item index="1" class="java.lang.String" itemvalue="Python.labelPropagation" />
-        <item index="2" class="java.lang.String" itemvalue="Python.neural_network_iris" />
-        <item index="3" class="java.lang.String" itemvalue="Python.neural_network" />
-        <item index="4" class="java.lang.String" itemvalue="Python.perceptron" />
+        <item index="0" class="java.lang.String" itemvalue="Python.randomforest_regressor" />
+        <item index="1" class="java.lang.String" itemvalue="Python.randomforest_classifier" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gradientboosting_regressor" />
+        <item index="3" class="java.lang.String" itemvalue="Python.gradientboosting_classifier" />
+        <item index="4" class="java.lang.String" itemvalue="Python.adaboost_regressor" />
       </list>
     </recent_temporary>
   </component>
@@ -423,18 +385,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="2418" height="1318" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938188" sideWeight="0.50166667" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32853514" sideWeight="0.49833333" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3065199" sideWeight="0.49833333" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -450,11 +411,31 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Ensemble/adaboost_regressor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3640">
+          <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding>
+            <element signature="e#245#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ensemble/gradientboosting_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4784">
+          <caret line="184" column="121" lean-forward="true" selection-start-line="184" selection-start-column="121" selection-end-line="184" selection-end-column="121" />
+          <folding>
+            <element signature="e#263#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KNN/kneighbors_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -697,9 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23">
           <caret line="85" column="32" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
-          <folding>
-            <element signature="e#228#259#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -707,9 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
           <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-          <folding>
-            <element signature="e#223#254#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -717,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="105" column="23" lean-forward="true" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
-          <folding>
-            <element signature="e#228#259#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,9 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="176" column="41" lean-forward="true" selection-start-line="176" selection-start-column="41" selection-end-line="176" selection-end-column="41" />
-          <folding>
-            <element signature="e#224#255#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,9 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="334" column="0" lean-forward="true" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
-          <folding>
-            <element signature="e#219#255#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,9 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#225#243#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,9 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="185" column="84" lean-forward="true" selection-start-line="185" selection-start-column="84" selection-end-line="185" selection-end-column="84" />
-          <folding>
-            <element signature="e#232#276#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,18 +727,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="119" column="66" lean-forward="true" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
-          <folding>
-            <element signature="e#237#255#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Semi_Supervised_Learning/labelSpreading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="120" column="62" lean-forward="true" selection-start-line="120" selection-start-column="62" selection-end-line="120" selection-end-column="62" />
+        <state relative-caret-position="494">
+          <caret line="113" column="25" lean-forward="true" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ensemble/adaboost_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ensemble/gradientboosting_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="185" column="0" lean-forward="true" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
           <folding>
-            <element signature="e#225#243#0" expanded="true" />
+            <element signature="e#263#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ensemble/gradientboosting_regressor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="235" column="0" lean-forward="true" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+          <folding>
+            <element signature="e#260#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ensemble/adaboost_regressor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3588">
+          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding>
+            <element signature="e#245#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ensemble/randomforest_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="e#255#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ensemble/randomforest_regressor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="e#254#285#0" expanded="true" />
           </folding>
         </state>
       </provider>
