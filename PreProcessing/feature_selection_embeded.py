@@ -94,8 +94,8 @@ def test_LinearSVC(*data):
 
 
 if __name__ == '__main__':
-    test_SelectFromModel()  # 调用 test_SelectFromModel
+    # test_SelectFromModel()  # 调用 test_SelectFromModel
     # data=load_diabetes() # 生成用于回归问题的数据集
     # test_Lasso(data.data,data.target) # 调用 test_Lasso
-    # data=load_digits() # 生成用于分类问题的数据集
-    # test_LinearSVC(data.data,data.target) # 调用 test_LinearSVC
+    data=load_digits() # 生成用于分类问题的数据集
+    test_LinearSVC(data.data,data.target) # 调用 test_LinearSVC
